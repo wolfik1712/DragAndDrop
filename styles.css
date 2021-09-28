@@ -6,7 +6,7 @@
 
 body {
 	font-family: "Lobster", sans-serif;
-	background-color: #e5e5e5;
+	background-color: #209ca5;
 	display: flex;
 	padding-top: 5rem;
 	justify-content: center;
@@ -73,4 +73,13 @@ body {
 		rgba(83, 67, 156, 1) 100%,
 		rgba(0, 212, 255, 1) 100%
 	);
+}
+.hold {
+	border: 1px solid blue;
+}
+.hide {
+	display: none;
+}
+.hovered {
+	border-top: 2px solid red;
 }
